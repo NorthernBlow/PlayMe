@@ -16,7 +16,7 @@ class DlgMain(QDialog):
 		self.setWindowTitle('PlayMe') # добавляем виджет со свойствами
 
 #проверяем, импортирован ли модуль, не используется ли он в другой программе
-if __name__ = '__main___':     
+if __name__ == '__main__':     
 	app = QApplication(sys.argv) #создаем приложение
 	dlgMain = DlgMain() #создаем экземпляр класса DlgMain, который наследует от Qdialog
 	dlgMain.show()  #показываем графический пользовательский интерфейс
